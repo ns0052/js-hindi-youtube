@@ -33,3 +33,31 @@ const myFunction = function(){
 }
 
 console.log(typeof scoreValue);
+
+
+
+
+
+// **************************************************************
+
+// Stack (Primitive), Heap memory (Non-Primitive)
+
+let myYoutubename = "navneetsharma"
+
+let anothername = myYoutubename
+anothername = "ns0052"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "navneet@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
