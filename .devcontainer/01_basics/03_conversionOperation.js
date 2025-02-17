@@ -2,7 +2,7 @@ let score = 33
 
 console.log(typeof score)
 console.log(typeof(score));
-let score = 1
+// let score = 1
 
 // console.log(typeof score);
 // console.log(typeof(score));
